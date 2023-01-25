@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Error Sample</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles-solution.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>HTML debugging</h1>
+    <p>This webpage is deliberately written with some built-in errors for you to explore.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2><span>Task 1</span>
+        Debug your code</h2>
+        <div class="section-content">
+        <ol>
+          <li>Highlight errors: Use the HTML Hint extension in VS Code to highlight issues and help you troubleshoot
+            your
+            code. Note: If the debugger is not working then you may be in restricted mode and need to turn on Workspace
+            Trust. Click on the Manage Gear button at the bottom of the screen on the left-hand side, then select Manage
+            Workspace Trust to switch between Trusted and Restrictied modes.</li>
+          <li>Improve your formatting: Using the Prettier extension to help you format your code is a fast way to make
+            your
+            code easier to read and
+            highlight nesting hierarchy issues.</li>
+          <li>Use the Chrome Developer Tools: With this page open in your browser, right-click &#62; Inspect.
+            <ul>
+              <li>Click on the Sources tab in the Dev Tools, do you see the stylesheet listed? If not, troublshoot the
+                error.</li>
+              <li>Click on the Elements tab, one by one, click on the arrows to open up the parent elements and drill
+                down
+                the descendant elements. This helps you see how the browser has interpreted the nesting of your
+                elements.
+              </li>
+              <li class="box-model">Select this list item in the Dev Tools code. In the Styles tab, you can see the
+                styles
+                that are applied to the list item, this helps you troubleshoot specificity issues. Click on the computed
+                tab
+                next to the Styles tab so that you can see the CSS box model for this list item.</li>
+            </ul>
+          </li>
+          <li>Use the HTML and CSS validator service by W3C to highlight errors that the VS Code extension might not
+            have
+            picked up on.</li>
+        </ol>
+        <h3>What causes errors in HTML?</h3>
+        <ul>
+          <li>Unclosed elements: If an element is <strong>not closed properly</strong>, then its effect can spread to
+            areas
+            you
+            didn't intend</li>
+          <li>Badly nested elements: <strong><em>Nesting elements properly is also very important
+                for code behaving correctly. </em></strong></li>
+          <li>Unclosed attribute values: Another common source of HTML problems. Let's look at an example: <a
+              href="https://www.mozilla.org/">link to Mozilla homepage</a></li>
+          <li>Does code with no validation errors in it mean that the code follows all best practices? No.</li>
+        </ul>
+      </div>
+      </section>
+        <section>
+          <h2><span>Task 2</span>
+        Try out some launch tasks</h2>
+        <div class="section-content">
+        <p>Follow the launch tasks below and take a screenshot of each one. Add the screenshots to your repo's images folder.</p>
+            <ul>
+              <li>If this were a real website we would check its accessibility prior to launching it: Go to
+                <a href="https://wave.webaim.org" target="_blank">https://wave.webaim.org</a> and enter learndigital.dev in the web address field. Check out all the
+                accessibility errors and alerts on the page. Take a screenshot  Take a guess at why there might be so many issues with this
+                website.</li>
+              <li>Now let's check to see if the website is mobile-friendly (if it isn't then search engines will
+                penalise it and visitors will have a poor experience): Go to
+                <a href="https://search.google.com/test/mobile-friendly" target="_blank">https://search.google.com/test/mobile-friendly</a> and enter learndigital.dev in the URL field.</li>
+              <li>Now let's see how quickly the homepage of the website loads. Go to
+                <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">https://developers.google.com/speed/pagespeed/insights/</a> and enter learndigital.dev in the field. Now do
+                the same again with the following url https://www.cbc.ca/lite/. This is the CBC's low-bandwidth version
+                of their website.</li>
+              <li>Last but not least, we would check that the website works flawlessly in all the most popular browsers.
+                For this we use a cross-browser testing tool but they are not free, so we can't practice it :( </li>
+            </ul>
+          </div>
+          </section>
+          <section>
+            <h2><span>Task 3</span>
+        Style the page to look like the provided example</h2>  
+        <div class="section-content">
+          <p>You don't need to add any HTML, all the HTML you need is already in the file.</p>
+        </div>
+      </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Error Sample</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <head>
+    <h1>HTML debugging</h1>
+    <p1>This webpage is deliberately written with some built-in errors for you to explore. Troublehsoot the errors.</p1>
+  </head>
+
+  <main>
+    <h2>Four tools to help you debug your code</h2>
+    <ol class="instructions">
+    <li>Highlight errors: Use the HTML Hint extension in VS Code to highlight issues and help you troubleshoot your code. Note: If the debugger is not working then you may be in restricted mode and need to turn on Workspace Trust. Click on the Manage Gear button at the bottom of the screen on the left-hand side, then select Manage Workspace Trust to switch between Trusted and Restrictied modes.</li>
+    <li>Improve your formatting: Using the Prettier extension to help you format your code is a fast way to make your code easier to read and
+      highlight nesting hierarchy issues.</li>
+      <li>Use the Chrome Developer Tools: With this page open in your browser, right-click > Inspect. 
+        <ul>
+        <li>Click on the Sources tab in the Dev Tools, do you see the stylesheet listed? If not, troublshoot the error.</li>
+        <li>Click on the Elements tab, one by one, click on the arrows to open up the parent elements and drill down the descendant elements. This helps you see how the browser has interpreted the nesting of your elements.</li>
+        <li class="box-model">Select this list item in the Dev Tools code. In the Styles tab, you can see the styles that are applied to the list item, this helps you troubleshoot specificity issues. Click on the computed tab next to the Styles tab so that you can see the CSS box model for this list item.</li>
+        </ul>
+        <li>Use the HTML and CSS validator service by W3C to highlight errors that the VS Code extension might not have picked up on.</li>
+      </ul>
+    <h1>What causes errors in HTML?
+      <ul>
+        <li>Unclosed elements: If an element is <strong>not closed properly, then its effect can spread to areas you didn't intend</li>
+        <li>Badly nested elements: Nesting elements properly is also very important</li><strong><em>
+          for code behaving correctly. </strong></em>
+      <li>Unclosed attribute values: Another common source of HTML problems. Let's look at an example: <a href="https://www.mozilla.org/>link to Mozilla homepage</a><li>
+    </ul>
+
+
+
+<H3>Does code with no validation errors in it mean that the code follows all best practices? </H3>
+<ul>
+  <li>>No. If you've now finished fixing all the errors in this file, read through the code again and look for issues that may not result in errors, but is wrong never-the-less.</li>
+<li>Think you've finished the exercise? 
+    <ol>
+    </li>If this were a website we would check its accessibility prior to launching it: Go to https://wave.webaim.org and enter learndigital.dev in the web address field. Check out all the accessibility errors and alerts on the page. Take a guess at why there might be so many issues with this website.</li>
+    <li>Now let's check to see if the website is mobile-friendly (if it isn't then search engines will penalise it and visitors will have a poor experience): Go to https://search.google.com/test/mobile-friendly and enter learndigital.dev in the URL field.</li>
+    <LI>Now let's see how quickly the homepage of the website loads. Go to https://developers.google.com/speed/pagespeed/insights/ and enter learndigital.dev in the field. Now do the same again with the following url https://www.cbc.ca/lite/. This is the CBC's low-bandwidth version of their website.</LI>
+    <li>Last but not least, we would check that the website works flawlessly in all the most popular browsers. For this we use a cross-browser testing tool but they are not free, so we can't practice it :( </li>
+  </ol>
+
+  </body>
+  </main>
+
+</html>
