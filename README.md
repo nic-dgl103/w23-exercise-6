@@ -10,7 +10,7 @@ This exercise is divided into 3 tasks:
 ## Instructions
 Remember to:
 * Regularly save your files and check out what your web page looks like in a web browser.
-* Make regular commits and pushes. ==Make sure that you have read the Git Commits Best Practices document that was provided in this week's reading. Your instructor will be looking at how you wrote your commit messages!==
+* :warning: Make regular commits and pushes. **Make sure that you have read the Git Commits Best Practices document that was provided in this week's reading. Your instructor will be looking at how you wrote your commit messages!**
 ### Get set up
 * Clone your remote exercise repository onto your local machine.
 * Add a comment in the head element of the homepage including: the course code and your section number - your name - Exercise 6. Example:
