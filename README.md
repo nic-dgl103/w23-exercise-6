@@ -3,8 +3,8 @@
 ## Objectives
 This exercise is divided into 3 parts: 
 1. First you will troubleshoot and correct the errors in the provided HTML file;
-2. Then you will write CSS to style the page so that it looks like the following webpage: https://askclaireguiot.github.io/w23-exercise-6-example/. You don’t need to guess at how it was coded, you can use the Styles and Computed tabs in the Chrome Developer Tools to inspect the webpage’s code and inform your CSS;
-3. Finally you will complete some launch tasks and add your results to the bottom of page, and use your knowledge of the CSS box model to style it as you see fit. below is an example of what your launch tasks content could look like.
+2. Then you will write CSS to style the page so that it looks like the provided webpage. 
+3. Finally you will chose a random website and complete some launch tasks. You will add your results to the bottom of page, and use CSS to style the content into cards.
 
 
 ## Instructions
@@ -18,17 +18,16 @@ Remember to:
 <!-- DGL 103 CVS1 - your name - Exercise 6 -->
 ```
 ### 1. Debug your code
-Open your index.html file in the browser.
 1. Highlight errors: Use the HTMLHint extension in VS Code to highlight issues and help you troubleshoot your code. Note: If the debugger is not working then you may be in restricted mode and need to turn on Workspace Trust. Click on the Manage Gear button at the bottom of the screen on the left-hand side, then select Manage Workspace Trust to switch between Trusted and Restrictied modes.
 2. Improve your formatting: Using the Prettier extension to help you format your code is a fast way to make your code easier to read and highlight nesting hierarchy issues.
 3. Use the Chrome Developer Tools: Open index.html in your browser, right-click > Inspect.
 Click on the Elements tab, one by one, click on the arrows to open up the parent elements and drill down the descendant elements. This helps you see how the browser has interpreted the nesting of your elements.
-4. Still have errors? Use the HTML and CSS validator service by W3C to highlight errors that the HTMLHint extension might not have picked up on.
+4. Use the HTML and CSS validator service by W3C to check for errors that the HTMLHint extension might not have picked up on.
 
 ### 2. Style the content
-In the Inspector's Styles tab, you can see the styles that are applied to the individual HTML elements. If a style is italicized and the source is stated as "user agent stylesheet", that means that it is the HTML element's default styling which is built-into the HTML language itself. 
-You can click on the Computed tab next to the Styles tab to see the CSS box model for each element.
-1. Using the information in the Styles tab, you will reverse-engineer the styles.css file for this page. You will copy and paste the styles from the Styles tab directly into your stylesheet. Keep going until you are sure that you have styled your whole index.html to look exactly like the live webpage.
+1. In VS Code, create an external stylesheet and link it to your index.html file.
+2. Open https://askclaireguiot.github.io/w23-exercise-6-example/ in the browser. Use the browser's Inspector's Styles tab, you can see the styles that are applied to the individual HTML elements. If a style is italicized and the source is stated as "user agent stylesheet", that means that it is the HTML element's default styling which is built-into the HTML language itself. 
+Using the information in the Styles tab, reverse-engineer the styles.css file for this page. Copy and paste the styles from the Styles tab directly into your stylesheet. Keep going until you are sure that you have styled your whole index.html to look exactly like the live webpage.
 2. Organize your CSS so that it is easy to read.
 
 ### 3. Practice some launch tasks
@@ -37,7 +36,7 @@ Choose any live website you like, and try out the three launch tasks below:
 2. Now let's check to see if the website is mobile-friendly (if it isn't then search engines will penalise it and visitors will have a poor experience): Go to https://search.google.com/test/mobile-friendly and enter your chosen website in the URL field. Take a screenshot of the results and save it in the images folder.
 3. Now let's see how quickly the homepage of the website loads. Go to https://developers.google.com/speed/pagespeed/insights/ and enter URL. Take a screenshot of the Mobile results and save it. Click ont he Desktop results, are they better than the mobile results?<br>
 Last but not least, we would check that the website works flawlessly in all the most popular browsers. For this we use a cross-browser testing tool but they are not free, so we can't practice it :(
-4. Add your testing to your index.html file. For each test, create a card that includes the screenshot and a sentence about how well your chosen website performed in the different tests and suggest changes what you could do to the website to improves its results. When you click on a card, the full-size image should open in a new browser window. Style your content any way you like but put some efforts into it. Don't forget to include the URl of the website you tested.
+4. Add your testing results to your index.html file. For each test, create a card that includes the screenshot and a sentence about how well your chosen website performed in the different tests and suggest changes what you could do to the website to improves its results. When you click on a card, the full-size image should open in a new browser window. Style your content any way you like but put some efforts into it. Don't forget to include the URl of the website you tested.
 ![Image of sample webpage](images/task3-example.png)
 
 ### Format, organize and add comments 
