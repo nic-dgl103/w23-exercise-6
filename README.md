@@ -18,7 +18,8 @@ Remember to:
 <!-- DGL 103 CVS1 - your name - Exercise 6 -->
 ```
 ### Task 1: Debug your code
-1. Highlight errors: Use the HTMLHint extension in VS Code to highlight issues and help you troubleshoot your code. Note: If the debugger is not working then you may be in restricted mode and need to turn on Workspace Trust. Click on the Manage Gear button at the bottom of the screen on the left-hand side, then select Manage Workspace Trust to switch between Trusted and Restricted modes.
+Open index.html in VS Code.
+1. Highlight any errors: Use the HTMLHint extension in VS Code to highlight issues and help you troubleshoot your code. Note: If the debugger is not working then you may be in restricted mode and need to turn on Workspace Trust. Click on the Manage Gear button at the bottom of the screen on the left-hand side, then select Manage Workspace Trust to switch between Trusted and Restricted modes.
 2. Improve your formatting: Using the Prettier extension to help you format your code is a fast way to make your code easier to read and highlight nesting hierarchy issues.
 3. Use the Chrome Developer Tools: Open index.html in your Chrome, right-click > Inspect.
 Click on the Elements tab, one by one, click on the arrows to open up the parent elements and drill down the descendant elements. This helps you see how the browser has interpreted the nesting of your elements.
