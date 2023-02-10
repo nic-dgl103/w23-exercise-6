@@ -34,8 +34,8 @@ Using the information in the Styles tab, reverse-engineer the styles for this pa
 Choose any live website you like, and try out the three launch tasks below:
 1. Go to https://wave.webaim.org and enter your chosen website's URL in the web address field to check the accessibility of the website. Check out all the accessibility errors and alerts in the Details tab. Take a screenshot and save it in your images folder. Make sure you name the file appropriately. 
 2. Now let's check to see if the website is mobile-friendly (if it isn't then search engines will penalise it and visitors will have a poor experience): Go to https://search.google.com/test/mobile-friendly and enter your chosen website in the URL field. Take a screenshot of the results and save it in the images folder.
-3. Now let's see how quickly the homepage of the website loads. Go to https://developers.google.com/speed/pagespeed/insights/ and enterthe URL. Take a screenshot of the Mobile results and save it. Click ont he Desktop results, are they better than the mobile results?<br>
-Last but not least, we would check that the website works flawlessly in all the most popular browsers. For this we use a cross-browser testing tool but they are not free, so we can't practice it :(
+3. Now let's see how quickly the homepage of the website loads. Go to https://developers.google.com/speed/pagespeed/insights/ and enter the URL. Take a screenshot of the Mobile results and save it. Click on the Desktop results, are they better than the mobile results?
+  
 Add your testing results to your index.html file. For each test, create a card that includes the screenshot and a sentence about how well your chosen website performed in the different tests and suggest changes what you could do to the website to improves its results. When you click on a card, the full-size image should open in a new browser window. Style your content any way you like but put some efforts into it. Don't forget to include the URl of the website you tested.
 ![Image of sample webpage](images/task3-example.png)
 
