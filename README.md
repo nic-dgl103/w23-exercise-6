@@ -4,7 +4,7 @@
 This exercise is divided into 3 parts: 
 1. First you will troubleshoot and correct the errors in the provided HTML file;
 2. Then you will write CSS to style the page so that it looks like the provided webpage. 
-3. Finally you will chose a random website and complete some launch tasks. You will add your results to the bottom of HTMl file, and use CSS to style the content into cards.
+3. Finally you will chose a random website and complete some launch tasks. You will add your results to the bottom of HTML file, and use CSS to style the content into cards.
 
 
 ## Instructions
