@@ -31,12 +31,12 @@ Using the information in the Styles tab, reverse-engineer the styles for this pa
 2. Organize your CSS so that it is easy to read. You could also validate it to make sure that you haven't made any errors.
 
 ### Task 3: Practice some launch tasks
-Choose any live website you like, and try out the three launch tasks below:
-1. Go to https://wave.webaim.org and enter your chosen website's URL in the web address field to check the accessibility of the website. Check out all the accessibility errors and alerts in the Details tab. Take a screenshot and save it in your images folder. Make sure you name the file appropriately. 
-2. Now let's check to see if the website is mobile-friendly (if it isn't then search engines will penalise it and visitors will have a poor experience): Go to https://search.google.com/test/mobile-friendly and enter your chosen website in the URL field. Take a screenshot of the results and save it in the images folder.
-3. Now let's see how quickly the homepage of the website loads. Go to https://developers.google.com/speed/pagespeed/insights/ and enter the URL. Take a screenshot of the Mobile results and save it. Click on the Desktop results, are they better than the mobile results?
+1. Choose any live website you like, and try out the three launch tasks below:
+    * Go to https://wave.webaim.org and enter your chosen website's URL in the web address field to check the accessibility of the website. Check out all the accessibility errors and alerts in the Details tab. Take a screenshot and save it in your images folder. Make sure you name the file appropriately. 
+    * Now let's check to see if the website is mobile-friendly (if it isn't then search engines will penalise it and visitors will have a poor experience. Go to https://search.google.com/test/mobile-friendly and enter your chosen website in the URL field. Take a screenshot of the results and save it in the images folder.
+    * Now let's see how quickly the homepage of the website loads. Go to https://developers.google.com/speed/pagespeed/insights/ and enter the URL. Take a screenshot of the Mobile results and save it. Click on the Desktop results, are they better than the mobile results?
   
-Add your testing results to your index.html file. For each test, create a card that includes the screenshot and a sentence about how well your chosen website performed in the different tests and suggest changes what you could do to the website to improves its results. When you click on a card, the full-size image should open in a new browser window. Style your content any way you like but put some efforts into it. Don't forget to include the URl of the website you tested.
+2. Add your testing results to the bottom of your index.html file. For each test, create a card that includes the screenshot and a sentence about how well your chosen website performed in the different tests and suggest changes what you could do to the website to improves its results. When you click on a card, the full-size image must open in a new browser window. Style your content any way you like but put some effort into it. Don't forget to include the URL of the website you tested.
 ![Image of sample webpage](images/task3-example.png)
 
 ### Format, organize and add comments 
@@ -45,12 +45,13 @@ Add your testing results to your index.html file. For each test, create a card t
 * Add a few comments to explain your HTML and CSS code and highlight anything of interest.
 
 ### Check for errors
-Use the VSCode HTMLHint extension and validate your code to make sure that it is correct(https://validator.w3.org/#validate_by_upload for HTML, https://jigsaw.w3.org/css-validator/ for CSS).
+Use the VSCode HTMLHint extension and validate your code to make sure that it is correct (https://validator.w3.org/#validate_by_upload for HTML, https://jigsaw.w3.org/css-validator/ for CSS).
 
 ### Submit your work
 1. Commit your changes.
-2. Push your changes to GitHub. 
-3. Submit in Brightspace to the "Unit 2 Exercises" assignment and follow the instructions. 
+2. Push your changes to GitHub.
+3. Submit in Brightspace to the "Unit 2 Exercises" assignment and follow the instructions. This is your last exercise of the unit:
+    * Grade all three of your exercises and answer the reflection questions.
 4. If you have been using a lab computer on campus, remember to restart the computer.
 
 ## Deadlines
