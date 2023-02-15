@@ -18,7 +18,7 @@ Remember to:
 <!-- DGL 103 CVS1 - your name - Exercise 6 -->
 ```
 ### Task 1: Debug your code
-Open index.html in VS Code.
+Open index.html in VS Code and debug the errors.
 1. Highlight any errors: Use the HTMLHint extension in VS Code to highlight issues and help you troubleshoot your code. Note: If the debugger is not working then you may be in restricted mode and need to turn on Workspace Trust. Click on the Manage Gear button at the bottom of the screen on the left-hand side, then select Manage Workspace Trust to switch between Trusted and Restricted modes.
 2. Improve your formatting: Use the Prettier extension to help you format your code, it is a fast way to make your code easier to read and highlight nesting hierarchy issues.
 3. Use the Chrome Developer Tools: Open index.html in Chrome, right-click > Inspect.
@@ -27,7 +27,7 @@ Click on the Elements tab, one by one, click on the arrows to open up the parent
 
 ### Task 2: Style the content
 1. In VS Code, create an external stylesheet and link it to your index.html file.
-2. Open https://askclaireguiot.github.io/w23-exercise-6-example/ in the Chrome, right-click > Inspect. In the Inspector's Styles tab, you can see the styles that are applied to the individual HTML elements. If a style is italicized and the source is stated as "user agent stylesheet", that means the style you are viewing is the HTML element's default styling. 
+2. Open https://askclaireguiot.github.io/w23-exercise-6-example/ in Chrome, right-click > Inspect. In the Inspector's Styles tab, you can see the styles that are applied to the individual HTML elements. If a style is italicized and the source is stated as "user agent stylesheet", that means the style you are viewing is the HTML element's default styling. 
 Using the information in the Styles tab, reverse-engineer the styles for this page. Copy and paste the styles from the Styles tab directly into your stylesheet. Keep going until you are sure that you have styled your whole index.html to look exactly like the live webpage.
 2. Organize your CSS so that it is easy to read. You could also validate it to make sure that you haven't made any errors.
 
@@ -37,11 +37,11 @@ Using the information in the Styles tab, reverse-engineer the styles for this pa
     * Now let's check to see if the website is mobile-friendly (if it isn't then search engines will penalise it and visitors will have a poor experience. Go to https://search.google.com/test/mobile-friendly and enter your chosen website in the URL field. Take a screenshot of the results and save it in the images folder.
     * Now let's see how quickly the homepage of the website loads. Go to https://developers.google.com/speed/pagespeed/insights/ and enter the URL. Take a screenshot of the Mobile results and save it. Click on the Desktop results, are they better than the mobile results?
   
-2. Add your testing results to the bottom of your index.html file. For each test, create a card that includes the screenshot and a sentence about how well your chosen website performed in the different tests and suggest changes what you could do to the website to improves its results. When you click on a card, the full-size image must open in a new browser window. Style your content any way you like but put some effort into it. Don't forget to include the URL of the website that you tested in the content.
+2. Add your testing results to the bottom of your index.html file. For each test, create a card that includes the screenshot and a sentence about how well your chosen website performed in the different tests and suggest changes what you could do to the website to improves its results. When you click on a card, the full-size image must open in a new browser window. Style your content any way you like but put some effort into it (it doesn't have to look like the crads in the example below). Don't forget to include the URL of the website that you tested in the content.
 ![Image of sample webpage](images/task3-example.png)
 
 ### Format, organize and add comments 
-* Use the Prettier VSCode extension to format your code.
+* Use the Prettier VSCode extension to format HTMl and CSS code.
 * Add organizational CSS comments and order your style rules so that your CSS is easy to read.
 * Add a few comments to explain your HTML and CSS code and highlight anything of interest.
 
